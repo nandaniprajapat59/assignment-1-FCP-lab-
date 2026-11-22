@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main()
+//25. PROGRAM TO PRINT TABLE OF ANY NO.
+{
+    int n, i;
+
+    printf("Enter a number: ");
+    scanf("%d", &n);
+    printf("table of %d is:\n",n);
+
+    for(i = 1; i <= 10; i++)
+    {
+        printf("%d x %d = %d\n", n, i, n * i);
+    }
+
+    return 0;
+}
